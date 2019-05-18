@@ -1,0 +1,473 @@
+@media screen and (min-width: 2560px) {
+/*Header Media*/
+    #grigorHovakimyan{
+        margin-top: 25%;
+    }
+#billGates{
+    font-size: 200%;
+}
+    #icons li a i{
+        font-size: 400%;
+    }
+    #icons li:hover {
+        border: none;
+        text-shadow: none;
+        margin-bottom: 2%;
+    }
+    #icons li:hover a i{
+        font-size: 400%;
+    }
+    #resume{
+        font-size: 190%;
+    }
+    #menu li a{
+        font-size: 150%;
+    }
+    /*Skill Media*/
+    #skill h1{
+        font-size: 350%;
+    }
+  #skillHead{
+      padding-bottom: 3%;
+      background: #616161;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #9ec8c6, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(55deg, #a1cbc9, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+    #skill{
+        /*margin-right: 50%;*/
+        background: none;
+    }
+    .c100{
+        font-size: 190px;
+    }
+
+    /*Right Media*/
+    #rightSaid{
+        margin-right: 0%;
+        padding-left: 4.5%;
+    }
+
+    /*Works Media*/
+    #works{
+        padding-left: 0;
+        /*margin-left: 25%;*/
+    }
+    #works h1{
+        font-size: 350%;
+    }
+    div.gallery{
+        margin: 5px 60px 5px 0px ;
+        border: none;
+        float: left;
+        width: 200%;
+        /*padding-left: 0;*/
+    }
+    div.gallery img{
+       width: 150%;
+        height: 600px;
+    }
+
+    /*Education Media*/
+
+    #education{
+       background: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #education h1{
+        font-size: 450%;
+    }
+    #education h3{
+        font-size: 300%;
+    }
+    #education img{
+        width: 600px;
+        height: 400px;
+    }
+
+    /*Contact Media*/
+#contact{
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+    #contact h1{
+        font-size: 450%;
+    }
+    #contact h4{
+        font-size: 250%;
+    }
+}
+
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px)  {
+
+    #skillHead{
+        margin-left: 15%;
+    }
+    #works{
+        margin-left: 20%;
+    }
+    #education,#contact{
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+    /* Header media */
+    .centered{
+    padding-bottom: 40px;
+    }
+    #billGates,#menu,#rightSaid,#leftSaid{
+    display: none;
+    }
+
+    /*Skill media */
+    #skillHead{
+    width: 85%;
+    padding: 0 0 4% 0;
+    }
+    #skill{
+    margin: 0;
+    background: none;
+    padding-left: 0;
+    }
+    #works,#education{
+    padding: 0 0 4% 0;
+    margin: 0 0 -2% 0;
+    }
+    #contact{
+    margin-left: 0;
+    }
+    #education{
+    background: none;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 425px)  {
+    /* Header media */
+    .centered{
+        padding-bottom: 40px;
+        /*top: 30%;*/
+    }
+    #grigorHovakimyan{
+        margin-top: 6%;
+        font-size: 310%;
+    }
+    #billGates,#menu,#rightSaid,#leftSaid{
+        display: none;
+    }
+    #icons{
+        padding-left: 0;
+    }
+
+    /* Skill Media */
+    #skill{
+        background: none;
+    }
+
+}
+
+@media only screen and (max-width: 425px) and (min-width: 375px)  {
+
+    /*Header media */
+    #grigorHovakimyan{
+        font-size: 110%;
+        margin: 2% 0;
+    }
+    #frontEnd{
+        font-size: 110%;
+    }
+    #billGates,#menu,#rightSaid,#leftSaid{
+        display: none;
+    }
+    #icons{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #icons li a i{
+        font-size: 150%;
+    }
+    #resume{
+        font-size: 90%;
+        padding: 0;
+        border: none;
+    }
+
+    /*Skill media*/
+    #skill{
+        background: none;
+    }
+    /*Works media*/
+    #worksRow{
+        margin-left: 25%;
+    }
+}
+
+
+@media only screen and (max-width: 375px) and (min-width: 320px)  {
+    /*Header media */
+    #grigorHovakimyan{
+        font-size: 110%;
+        margin: 2% 0;
+    }
+    #frontEnd{
+        font-size: 110%;
+    }
+    #billGates,#menu,#rightSaid,#leftSaid{
+        display: none;
+    }
+    #icons{
+        padding-left: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    #icons li a i{
+        font-size: 100%;
+    }
+    #resume{
+        font-size: 80%;
+        padding: 0;
+        border: none;
+    }
+
+    /*Skill media*/
+    #skill{
+        background: none;
+    }
+    /*Works media*/
+    #worksRow{
+        margin-left: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 375px) and (min-width: 320px)  {
+
+}
+
+@media screen and (max-width: 320px) {
+    /*Header media */
+    #grigorHovakimyan{
+        font-size: 100%;
+        margin: 2% 0;
+
+    }
+    #frontEnd{
+        font-size: 100%;
+        margin: 0;
+    }
+    #billGates,#menu,#rightSaid,#leftSaid{
+        display: none;
+    }
+    #icons{
+        padding-left: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    #icons li a i{
+        font-size: 100%;
+    }
+    #resume{
+        font-size: 90%;
+        padding: 0;
+        border: none;
+    }
+
+    /*Skill media*/
+    #skill{
+        background: none;
+    }
+    /*Works media*/
+    #worksRow{
+        margin-left: 25%;
+    }
+}
+
+
+/*@media screen and (max-width: 1440px) {*/
+
+/*#skillHead{*/
+    /*margin-left: 15%;*/
+/*}*/
+/*#works{*/
+    /*margin-left: 20%;*/
+/*}*/
+    /*#education,#contact{*/
+        /*margin-left: 15%;*/
+    /*}*/
+/*}*/
+
+
+/*@media screen and (max-width: 1024px) {*/
+
+   /*!* Header media *!*/
+/*.centered{*/
+    /*padding-bottom: 40px;*/
+/*}*/
+    /*#billGates,#menu,#rightSaid,#leftSaid{*/
+        /*display: none;*/
+    /*}*/
+
+    /*!*Skill media *!*/
+    /*#skillHead{*/
+        /*width: 85%;*/
+        /*padding: 0 0 4% 0;*/
+    /*}*/
+    /*#skill{*/
+        /*margin: 0;*/
+        /*background: none;*/
+        /*padding-left: 0;*/
+    /*}*/
+    /*#works,#education{*/
+        /*padding: 0 0 4% 0;*/
+        /*margin: 0 0 -2% 0;*/
+    /*}*/
+    /*#contact{*/
+        /*margin-left: 0;*/
+    /*}*/
+    /*#education{*/
+        /*background: none;*/
+    /*}*/
+
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+
+   /*!* Header media *!*/
+    /*.centered{*/
+        /*padding-bottom: 40px;*/
+        /*!*top: 30%;*!*/
+    /*}*/
+    /*#grigorHovakimyan{*/
+        /*margin-top: 6%;*/
+        /*font-size: 310%;*/
+    /*}*/
+    /*#billGates,#menu,#rightSaid,#leftSaid{*/
+        /*display: none;*/
+    /*}*/
+    /*#icons{*/
+        /*padding-left: 0;*/
+    /*}*/
+
+   /*!* Skill Media *!*/
+    /*#skill{*/
+        /*background: none;*/
+    /*}*/
+
+/*}*/
+
+/*@media screen and (min-width: 425px) {*/
+    /*!*Header media *!*/
+    /*#grigorHovakimyan{*/
+        /*font-size: 110%;*/
+        /*margin: 2% 0;*/
+    /*}*/
+    /*#frontEnd{*/
+        /*font-size: 110%;*/
+    /*}*/
+    /*#billGates,#menu,#rightSaid,#leftSaid{*/
+        /*display: none;*/
+    /*}*/
+    /*#icons{*/
+        /*padding-left: 0;*/
+        /*margin-left: 0;*/
+    /*}*/
+    /*#icons li a i{*/
+        /*font-size: 150%;*/
+    /*}*/
+    /*#resume{*/
+        /*font-size: 90%;*/
+        /*padding: 0;*/
+        /*border: none;*/
+    /*}*/
+
+    /*!*Skill media*!*/
+/*#skill{*/
+    /*background: none;*/
+/*}*/
+  /*!*Works media*!*/
+    /*#worksRow{*/
+        /*margin-left: 25%;*/
+    /*}*/
+
+/*}*/
+
+
+/*@media screen and (min-width: 375px) {*/
+    /*!*Header media *!*/
+    /*#grigorHovakimyan{*/
+        /*font-size: 110%;*/
+        /*margin: 2% 0;*/
+    /*}*/
+    /*#frontEnd{*/
+        /*font-size: 110%;*/
+    /*}*/
+    /*#billGates,#menu,#rightSaid,#leftSaid{*/
+        /*display: none;*/
+    /*}*/
+    /*#icons{*/
+        /*padding-left: 0;*/
+        /*margin-left: 0;*/
+        /*margin-bottom: 0;*/
+    /*}*/
+    /*#icons li a i{*/
+        /*font-size: 100%;*/
+    /*}*/
+    /*#resume{*/
+        /*font-size: 80%;*/
+        /*padding: 0;*/
+        /*border: none;*/
+    /*}*/
+
+    /*!*Skill media*!*/
+    /*#skill{*/
+        /*background: none;*/
+    /*}*/
+    /*!*Works media*!*/
+    /*#worksRow{*/
+        /*margin-left: 25%;*/
+    /*}*/
+
+/*}*/
+
+/*@media screen and (min-width: 320px) {*/
+    /*!*Header media *!*/
+    /*#grigorHovakimyan{*/
+        /*font-size: 100%;*/
+        /*margin: 2% 0;*/
+
+    /*}*/
+    /*#frontEnd{*/
+        /*font-size: 100%;*/
+        /*margin: 0;*/
+    /*}*/
+    /*#billGates,#menu,#rightSaid,#leftSaid{*/
+        /*display: none;*/
+    /*}*/
+    /*#icons{*/
+        /*padding-left: 0;*/
+        /*margin-left: 0;*/
+        /*margin-bottom: 0;*/
+    /*}*/
+    /*#icons li a i{*/
+        /*font-size: 100%;*/
+    /*}*/
+    /*#resume{*/
+        /*font-size: 90%;*/
+        /*padding: 0;*/
+        /*border: none;*/
+    /*}*/
+
+    /*!*Skill media*!*/
+    /*#skill{*/
+        /*background: none;*/
+    /*}*/
+    /*!*Works media*!*/
+    /*#worksRow{*/
+        /*margin-left: 25%;*/
+    /*}*/
+
+/*}*/
